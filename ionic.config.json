@@ -1,0 +1,7 @@
+{
+  "name": "PetList",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

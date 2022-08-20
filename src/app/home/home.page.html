@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Pet List
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding class="contentLista">
+  <div>
+    <ion-list class="Botoes">
+      <ion-button (click) = "sort('id')" fill="outline" expand="auto" class="Botao1">id</ion-button>
+      <ion-button (click) = "sort('type')" fill="outline" expand="auto" class="Botao2">Type</ion-button>
+      <ion-button (click) = "sort('price')" fill="outline" expand="auto" class="Botao3">Price</ion-button>
+    </ion-list>
+  </div>
+  <ion-list *ngFor="let item of items | orderBy: key: reverse">
+    <ion-item-divider class="Info">Info
+      <ion-icon name = "paw" slot="start"></ion-icon>
+    </ion-item-divider>
+        <ion-item>Id: {{item.id}}</ion-item>
+        <ion-item>Type: {{item.type}}</ion-item>
+        <ion-item>Price: $ {{item.price}}</ion-item>
+  </ion-list>
+</ion-content>
+
+
