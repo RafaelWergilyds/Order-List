@@ -9,4 +9,6 @@ existência de três botões cujo a função de cada é organizar a lista a part
 
 O aplicativo foi desenvolvido através do framework Ionic.
 
-```npm i global```
+
+Para o funcionamento correto para desenvolvedores, é necessario instalar algumas dependencias para o bom funcionamento do App:
+
