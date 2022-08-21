@@ -7,5 +7,8 @@ existência de três botões cujo a função de cada é organizar a lista a part
 
 ![image](https://user-images.githubusercontent.com/88844519/185764089-db2219e9-a98e-4afe-8617-530872e9bab1.png)
 
+Para a instalação das dependências, é necesssário utilizar os seguintes comandos no terminal da pasta ou progama:
 
+```npm install --local```
+```npm audit --fix --force```
 
