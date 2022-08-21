@@ -13,3 +13,4 @@ Para a instalação das dependências, é necesssário utilizar os seguintes com
 
 ```npm audit --fix --force```
 
+Caso o aplicativo não funcione por problemas de CORS(
