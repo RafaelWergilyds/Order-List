@@ -10,5 +10,6 @@ existência de três botões cujo a função de cada é organizar a lista a part
 Para a instalação das dependências, é necesssário utilizar os seguintes comandos no terminal da pasta ou progama:
 
 ```npm install --local```
+
 ```npm audit --fix --force```
 
