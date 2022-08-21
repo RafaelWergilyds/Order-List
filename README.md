@@ -13,4 +13,4 @@ Para a instalação das dependências, é necesssário utilizar os seguintes com
 
 ```npm audit --fix --force```
 
-Caso o aplicativo não funcione por problemas de CORS(
+Caso o aplicativo não funcione por problemas de CORS(Cross-Origin Resource Sharing), aconselho desativar o CORS do navegador ou substituir a API utilizada em "src/app/home/home.page.ts" para "https://demo1287829.mockable.io/".
